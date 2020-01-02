@@ -1,4 +1,22 @@
 ---
 label: test1
 hide_body: false
-fields: []
+fields:
+- name: selectdate
+  type: datetime
+  label: SelectDate
+  description: your birthdate comes here.
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: textArea
