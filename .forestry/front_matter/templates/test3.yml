@@ -1,0 +1,19 @@
+---
+label: test3
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: description
+  label: description
+- type: text
+  name: shareImg
+  label: shareImg
+- type: text
+  name: canonical
+  label: canonical
