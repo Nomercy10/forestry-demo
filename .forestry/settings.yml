@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: yuhu/assets
+  label: yuhu directory
+  create: all
+  match: "**/*"
 - type: heading
   label: Yuhu the genius
 - type: document
